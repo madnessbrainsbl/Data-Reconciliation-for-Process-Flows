@@ -116,6 +116,26 @@ pytest -q
 6 passed
 ```
 
+## Примеры результатов
+
+### Технологическая схема потоков
+
+![Схема потоков](plant_results_lcurve_lambda/plant_graph_readable.png)
+
+### Подбор параметра регуляризации (L-кривая)
+
+![L-кривая](plant_results_lcurve_lambda/plant_lambda_optimization.png)
+
+### Коридоры погрешностей и результаты сведения
+
+![Коридоры погрешностей](plant_results_lcurve_lambda/plant_corridor_readable.png)
+
+### Monte Carlo — итоговая сводка
+
+![Monte Carlo](plant_results_lcurve_lambda/plant_monte_carlo_summary.png)
+
+---
+
 ## Результаты
 
 После запуска результаты сохраняются в папку:
